@@ -3,14 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY FIRST WEBSITE</title>
+    <title>Upload Your Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .upload-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        .upload-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .upload-content {
+            max-width: 500px;
+            text-align: left;
+            margin-right: 50px;
+        }
+        .upload-content h1 {
+            font-size: 36px;
+            color: #2d74da;
+        }
+        .upload-content p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .upload-content .sign-in-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f34b3d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <H1>DATA COLLECTION PROJECT</H1>
-    <h1>by prabu</h1>
-    <img width="200px" src="DATA IMAGE.jpg" alt="">
-    <p>This is my first startup my dream is become a data analyst</p>
-    <p>welcome all</p>
-    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </header>
+
+        <section class="upload-section">
+            <div class="upload-content">
+                <h1>Upload Your Files</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="sign-in-btn">Sign In</a>
+            </div>
+            <div>
+                <img src="upload-image.png" alt="Upload Image">
+            </div>
+        </section>
+    </div>
 </body>
 </html>
